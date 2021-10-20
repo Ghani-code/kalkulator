@@ -1,0 +1,83 @@
+table {
+  border: 2px solid rgba(170, 144, 26, 0.404);
+  border-radius: 5px;
+  border-color: yellow;
+  border-radius: 20px;
+  padding: 1%;
+  background-color: black;
+  color: #ffffff;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#hasil {
+  cursor: pointer;
+}
+#clear {
+  cursor: pointer;
+}
+
+th {
+  padding: 10%;
+  border-bottom: 2px solid grey;
+  border-radius: 10px;
+  background-color: rgb(192, 147, 33);
+}
+
+tr,
+td {
+  border: 1px solid black;
+  padding: 3%;
+}
+
+.kalkulator {
+  font-size: 50px;
+  color: black;
+}
+
+.hitung {
+  font-size: 18px;
+}
+
+.kalimat {
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+}
+
+.aritmatika {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.clear {
+  margin-left: 85%;
+  font-size: medium;
+  width: 90px;
+  position: relative;
+  bottom: 30px;
+}
+@media screen and (max-width: 480px) {
+  .hasilakhir {
+    width: 95%;
+  }
+  #clear {
+    left: -40px;
+    top: -20px;
+  }
+  #kalkulator {
+    font-size: 30px;
+  }
+  input {
+    width: 90px;
+  }
+  .table1 {
+    width: 95%;
+    line-height: 45px;
+  }
+  #hasil {
+    width: 120px;
+  }
+}
